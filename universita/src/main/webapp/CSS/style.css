@@ -1,0 +1,111 @@
+body {
+	background-color: #e0e0e0;
+	background-size: cover;
+}
+
+
+.parola-colorata {
+	color: red;
+}
+
+.inline-element {
+	display: inline-block;
+}
+
+
+.logbutton {
+  background-color: #f0f0f0;
+  border: 5px radius;
+  color: black;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+
+.button {
+	background-color: white;
+	border: 5px radius;
+	color: black;
+	padding: 2px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+
+.logincontainer {
+	margin: 0 auto;
+	min-width: 200px;
+	max-width: 25%;
+	border-radius: 2%;
+	background-color: #fafafa;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+	margin: 0 auto;
+	min-width: 350px;
+	max-width: 40%;
+	border-radius: 2%;
+	background-color: #fafafa;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.containerButton {
+	margin: 0 auto;
+	min-width: 150px;
+	max-width: 10%;
+	border-radius: 2%;
+	background-color: #fafafa;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.logo {
+	max-width: 20%;
+}
+
+#aggiungi, #modifica, #elimina
+{
+	/* Stili comuni per tutti i pulsanti */
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 5px 10px;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+}
+
+/* Stile specifico per il pulsante "Aggiungi" */
+#aggiungi
+{
+    background: #11aa11;
+}
+
+/* Stile specifico per il pulsante "Modifica" */
+#modifica
+{
+    background: #ee9b22;
+}
+
+/* Stile specifico per il pulsante "Elimina" */
+#elimina
+{
+    background: #ee1111;
+}
